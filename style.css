@@ -74,7 +74,8 @@ h1{
 }
 
 .img{
-width: 20%;
+
+margin-right: 400px;
 
 }
     
@@ -107,7 +108,7 @@ form{
 
 h1 {
 margin: 0 auto;
-color: white;
+color: rgb(119, 45, 45);
     padding: 30px;
 
 
