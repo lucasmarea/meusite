@@ -16,7 +16,7 @@ nav {
   margin: 0 auto;
   padding: 5px;
   opacity: 1.0;
-  position: abso;
+ 
   
    
 
@@ -38,6 +38,7 @@ nav ul li:hover {
 }
 nav ul li a:hover{
     color: red; ;
+    
 }
 nav ul li a{
     color: rgb(0, 0, 0);
@@ -49,35 +50,48 @@ nav ul li a{
     padding: 20px;
 
     
-   
+
 }
 nav img{
    
     width: 20%;
     margin-left: 190px;
 }
-h1{
+.top {
    
-    padding: 60px;
+    padding:0px;
     text-align: center;
-    margin-top: 200px;
-    margin-right: 909px;
-    
+   
+    margin-left: -200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
 }
+
+.top h1{
+
+    font-size: 40px;
+    position: center;
+}
+
 
 
 
 .top img{
 
-    margin-left: 100px;
-    margin-top: 190px;
+    margin-left: 22px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr ;
 }
 
-.top button{
-    background-color: red;
-    border-radius: 50px;
-    width: 90px;
-    height: 30px;
-    margin-top: 300px;
-    text-decoration: none;
+
+
+footer{
+
+    background-color: #b1b1b1;
+    text-align: center;
+    height: 100px;
+    padding-top: 20px;
+    
+    
 }
